@@ -16,7 +16,7 @@ import java.util.List;
 
 public final class ULTRAPARRYClient {
 
-    public static final KeyBinding PARRY_KEYBIND = new KeyBinding("key.ultraparry.parry", InputUtil.Type.KEYSYM, InputUtil.GLFW_KEY_F, "category.ultraparry.parry");
+    public static final KeyBinding PARRY_KEYBIND = new KeyBinding("key.ultraparry.parry", InputUtil.Type.KEYSYM, InputUtil.GLFW_KEY_R, "category.ultraparry.parry");
 
     public static int parryTicks = 0;
     private static int screenFlashTicks =0;
